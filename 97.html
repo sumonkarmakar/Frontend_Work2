@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Changing images according to the browser</h3>
+    <h2>Change Images Depending on Browser Width</h2>
+    <p>Resize the browser width and the image will change at 600px and 1500px.</p>
+    <picture>
+        <source srcset="img/flatblack.jpg" media="(max-width: 600px)">(Change image)
+        <source srcset="img/flatgreen.jpg" media="(max-width: 1500px)">(Change image)
+        <source srcset="flowers.jpg">
+        <img src="img/longhornserene.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+</body>
+
+</html>

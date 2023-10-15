@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+width:360px;
+height:640px;
+border:5px solid red;
+position:relative;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap:wrap;
+  background-color: lightgrey;
+  width:99%;
+  height:18%;
+  overflow:auto;
+  border:1px solid black;
+   position:relative;
+   justify-content:space-around;
+}
+
+.flex-container>div {
+  width:50%;
+  height:28%;
+  //background-color:yellow;
+  position:relative;
+   
+  //top:0%;
+}
+.flex-container~div#maindiv{
+display:flex;
+flex-wrap:wrap;
+
+height:80%;
+width:100%;
+background-color:cyan;
+
+}
+.flex-container~div#maindiv>div{
+height:25%;
+width:100%;
+border:2px solid blue;
+overflow:auto;
+}
+
+.flex-container~div#maindiv>div:nth-child(1)>label{
+width:100%!important;
+background-color:red;
+display:inline-block;
+
+}
+
+.flex-container~div#maindiv>div:nth-child(1)>input{
+width:100%!important;
+}
+
+
+.flex-container~div#maindiv>div:nth-child(1)>button{
+display:block;
+width:100%;
+background-color:blue;
+}
+span{
+background-color:powderblue;
+position:absolute;
+top:0%;
+left:0%;
+}
+a{
+text-decoration:none;
+text-transform:lowercase;
+font-variant:small-caps;
+white-space:nowrap;
+position:absolute;
+left:0px;
+
+}
+@media screen and (min-width:375px) and (max-width:1920px) {
+* {box-sizing: border-box;}
+body {
+    width: 100vw;
+    position: relative;
+    height: 100vh;
+    border: 5px solid red;
+	margin:0px;
+    
+	background-color:red;
+				
+}
+.flex-container {
+  display:flex;
+  flex-direction:column;
+  flex-wrap:nowrap;
+  width:20%;
+  height:90%;
+  overflow:scroll;
+ 
+}
+
+.flex-container>div {
+  width:100%;
+  height:10%;
+  
+  position:relative;
+   
+  
+}
+.flex-container~div#maindiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 2px solid blue;
+    height: 90%;
+    width: 75%;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    background-color: yellow;
+	
+}
+
+.flex-container~div#maindiv>div{
+height:25%;
+width:100%;
+border:2px solid blue;
+overflow:auto;
+}
+
+.flex-container~div#maindiv>div:nth-child(1)>label{
+width:50%!important;
+background-color:red;
+display:inline-block;
+
+}
+
+.flex-container~div#maindiv>div:nth-child(1)>input{
+width:50%!important;
+}
+
+
+.flex-container~div#maindiv>div:nth-child(1)>button{
+display:block;
+width:50%;
+background-color:blue;
+}
+span{
+background-color:powderblue;
+position:absolute;
+top:0%;
+left:10%;
+}
+a{
+text-decoration:none;
+text-transform:lowercase;
+font-variant:small-caps;
+white-space:nowrap;
+position:absolute;
+left:0px;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+
+<div id="flexcontainer" class="flex-container">
+ <div>
+ <span>
+ <a href="#">my groceries section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my personal loan section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my health section</a>
+ </span>
+ </div>
+ 
+  <div>
+ <span>
+ <a href="#">my books section</a>
+ </span>
+ </div>
+ 
+  <div>
+ <span>
+ <a href="#">my stationaries section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my products section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my home section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my pets section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my payment section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my home section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my pets section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my payment section</a>
+ </span>
+ </div>
+ 
+  <div>
+ <span>
+ <a href="#">my home section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my pets section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my payment section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my home section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my pets section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my payment section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my home section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my pets section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my payment section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my home section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">test1</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">test2</a>
+ </span>
+ </div>
+ 
+ 
+ <div>
+ <span>
+ <a href="#">my home section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">test1</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">test2</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">my home section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">test1</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">test2</a>
+ </span>
+ </div>
+ <div>
+ <span>
+ <a href="#">my home section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">test1</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">test2</a>
+ </span>
+ </div>
+ <div>
+ <span>
+ <a href="#">my home section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">test1</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">test2</a>
+ </span>
+ </div>
+ <div>
+ <span>
+ <a href="#">my home section</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">test1</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">test2</a>
+ </span>
+ </div>
+ <div>
+ <span>
+ <a href="#">test1</a>
+ </span>
+ </div>
+ 
+ 
+ 
+ <div>
+ <span>
+ <a href="#">test1</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">test2</a>
+ </span>
+ </div>
+ <div>
+ <span>
+ <a href="#">test1</a>
+ </span>
+ </div>
+ 
+ 
+ <div>
+ <span>
+ <a href="#">latest1</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">latest2</a>
+ </span>
+ </div>
+ <div>
+ <span>
+ <a href="#">latest3</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">latest4</a>
+ </span>
+ </div>
+ 
+ <div>
+ <span>
+ <a href="#">latest5</a>
+ </span>
+ </div>
+ <div>
+ <span>
+ <a href="#">latest6</a>
+ </span>
+ </div>
+ 
+ 
+</div>
+
+<div id="maindiv">
+<div id="div1">
+<label>NAME:</label>
+<input type="text" id="name">
+<label>ADDRESS:</label>
+<input type="text" id="address">
+<label>PHONE:</label>
+<input type="text" id="phone">
+<label>EMAIL:</label>
+<input type="text" id="email">
+<button>SAVE STUDENT</button>
+
+
+</div>
+<div id="div2">
+<p>MY PERSONAL LOAN SECTION</p>
+</div>
+<div id="div3">
+<p>MY HEALTH SECTION</p>
+</div>
+<div id="div4">
+<p>MY BOOKS SECTION</p>
+</div>
+
+</div>
+</body>
+</html>

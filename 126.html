@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>HTML Canvas Tag With JavaScript</h3>
+    <canvas id="myCanvas" width="250" height="150" style="border:1px solid #c3c3c3;">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+    <script>
+        var c = document.getElementById("myCanvas");
+        var cctx = c.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(0, 0, 200, 100);  
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var x = document.getElementById("location");
+
+        function getlocation() {
+            if (navigator.geolocation) {
+                alert("your browser is supporting Geolocation API")
+            } else {
+                alert("Sorry! your browser is not supporting")
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h3>HTML Geolocation Example</h3>
+    <button onclick="getlocation()">Click me</button>
+    <div id="location"></div>
+</body>
+
+</html>
