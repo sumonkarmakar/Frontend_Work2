@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Date Input Type</h2>
+    <form>
+        Select Start and End Date: <br><br>
+        <input type="date" name="Startdate"> Start date:<br><br>
+        <input type="date" name="Enddate"> End date:<br><br>
+        <input type="submit">
+    </form><br />
+    <hr />
+    <h2>DateTime Local Input</h2>
+    <form>
+        <label>
+            Select the meeting schedule: <br><br>
+            Select date & time: <input type="datetime-local" name="meetingdate"> <br><br>
+        </label>
+        <input type="submit">
+    </form><br />
+    <hr />
+    <h2>Email Id Input</h2>
+    <form>
+        <label><b>Enter your Email-address</b></label>
+        <input type="email" name="email" required>
+        <input type="submit">
+        <p><strong>Note:</strong>User can also enter multiple email addresses separating by comma or whitespace as
+            following: </p>
+        <label><b>Enter multiple Email-addresses</b></label>
+        <input type="email" name="email" multiple>
+        <input type="submit">
+    </form><br />
+    <hr />
+    <h3>Birthday Input</h3>
+    <form>
+        <label>Enter your Birth Month-year: </label>
+        <input type="month" name="newMonth">
+        <input type="submit">
+    </form><br />
+    <hr />
+    <h3>Number Input</h3>
+    <form>
+        <label>Enter your age: </label>
+        <input type="number" name="num" min="50" max="80">
+        <input type="submit">
+    </form><br/>
+    <hr/>
+    <h3>URL Input Type</h3>
+    <form>  
+        <label>Enter your website URL: </label>  
+        <input type="url" name="website" placeholder="http://example.com"><br>  
+        <input type="submit" value="send data">  
+    </form><br/>
+    <hr/>
+    <h3>Week Input Type</h3>  
+    <form>  
+        <label><b>Select your best week of year:</b></label><br><br>  
+        <input type="week" name="bestweek">  
+        <input type="submit" value="Send data">  
+     </form> <br/>
+     <hr/> 
+     <h3>Search Input Type</h3>
+     <form>  
+        <label>Search here:</label>  
+        <input type="search" name="q">  
+        <input type="submit" value="search">  
+    </form> <br/>
+    <hr/>
+    <h3>Telephone Number input</h3>
+    <form>  
+        <label><b>Enter your Telephone Number(in format of xxx-xxx-xxxx):</b></label>  
+        <input type="tel" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>  
+        <input type="submit"><br><br>  
+     </form>    
+</body>
+
+</html>
